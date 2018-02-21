@@ -1,0 +1,24 @@
+{
+  "name": "demonpmavanzata",
+  "version": "1.0.0",
+  "description": "esercitazione sulla demo npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ary18/demoNpmAvanzata.git"
+  },
+  "keywords": [
+    "npm",
+    "javascript",
+    "Git"
+  ],
+  "author": "Arianna Garassino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ary18/demoNpmAvanzata/issues"
+  },
+  "homepage": "https://github.com/Ary18/demoNpmAvanzata#readme"
+}
