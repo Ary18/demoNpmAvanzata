@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/Ary18/demoNpmAvanzata#readme",
   "dependencies": {
+    "jquery": "^3.3.1",
     "moment": "2.20.1"
+  },
+  "devDependencies": {
+    "logmon": "0.0.1"
   }
 }
