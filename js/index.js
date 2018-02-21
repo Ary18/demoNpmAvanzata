@@ -1,10 +1,33 @@
 function aggiuntaTagP(testo,contenitore){
     var p = document.createElement('p');
     p.innerText = testo;
-    document.getElementById(gitcontenitore).append(p);
+    document.getElementById(contenitore).append(p);
+}
+
+function aggiuntaTagH1(testo){
+    var h1 = document.createElement('h1');
+    h1.innerText = testo;
+    h1.style.backgroundColor = 'violet';
+    document.getElementById('section2').append(h1);
 }
 
 function caricaData(){
+
+    document.getElementById('btn').addEventListener('click',function(){
+        // var h1 = document.createElement('h1');
+        // h1.innerText = 'ciao';
+        // h1.style.backgroundColor = 'violet';
+        // document.getElementById('section2').append(h1);
+
+        for (var index = 0; index < 50; index++) {
+        // var h1 = document.createElement('h1');
+        // h1.innerText = 'ciao';
+        // h1.style.backgroundColor = 'violet';
+        // document.getElementById('section2').append(h1);
+        aggiuntaTagH1(index);
+        }
+    });
+
     setTimeout(function(){
         moment('it');
         var sunrise = 1485762037;
@@ -36,7 +59,5 @@ function caricaData(){
         // p3.innerText = dataScadenzaStringa;
         // document.getElementById('contenitore').append(p3);
         aggiuntaTagP(dataScadenzaStringa,'contenitore');
-
-
     },1000);
 }
