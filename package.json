@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Ary18/demoNpmAvanzata/issues"
   },
-  "homepage": "https://github.com/Ary18/demoNpmAvanzata#readme"
+  "homepage": "https://github.com/Ary18/demoNpmAvanzata#readme",
+  "dependencies": {
+    "moment": "2.20.1"
+  }
 }
